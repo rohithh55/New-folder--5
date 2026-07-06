@@ -7,3 +7,9 @@ module "ec2" {
 
   instance_name = "cicd-EC2"
 }
+module "s3" {
+  source = "./modules/s3"
+
+  bucket_name = "rohith-demo-bucket-2026-001"
+  environment = "dev"
+}
