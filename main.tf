@@ -10,6 +10,6 @@ module "ec2" {
 module "s3" {
   source = "./modules/s3"
 
-  bucket_name = "rohith-demo-bucket-2026-001"
+  bucket_name = "rohith-demo-bucket-2026-0017777"
   environment = "dev"
 }
